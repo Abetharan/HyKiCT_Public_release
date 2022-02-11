@@ -13,8 +13,8 @@
 - Do cmake .. 
 - Once cmake finishes, simply type make and everything will build. 
 - Once everything has compiled test with. TEST_PATH= "/HyKiCT/tests/INTEGRATED_TESTS_INITS' ./tests/test_driver (assuming you are in the build directory) 
-- IF this is successfull, you have succesfully compiled the program.
-
+- IF this is successfull, you have succesfully compiled the program. 
+  - Known issue "IntSourceNonLocalHeatRecreationTest.divQCheck" test will fail, ignore this for now! 
 ## Usage 
 
 - Update Config.yml file to your needs.
